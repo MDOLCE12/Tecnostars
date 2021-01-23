@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>	Tecnostars - Tecnología al instante	</title>
+		<meta charset="utf-8"/>
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700&family=Monoton&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Life+Savers&family=Monoton&display=swap" rel="stylesheet">
+
+		<link rel= "stylesheet" href="CSS/tecnostars.CSS">
+	</head>
+	<body>	
+		<section id="portada" class="portada background" >  <!-- style="background: Aqua"> --> <!-- portada -->
+		<header id="header" class="header contenedor" > <!-- header -->
+			 <figure class="logotipo" ><!-- logotipo -->
+			 	<img src="IMAGES/TITULO 1 TECNOSTARS.PNG" width="200" height="100" alt="TECNOSTARS LOGOTIPO"> 
+			 </figure>
+				
+				<nav class="menú"><!-- menú -->
+					<ul>
+						<li>
+							 <a href="index.html"> home</a>
+						</li>
+						<li>
+							 <a href="#Computadores"> Tecnologías</a>
+						</li>
+							<!-- <li>
+							 <a href="#Celulares"> Celulares</a>
+						</li> -->
+						<li>
+							 <a href="precios.html"> precios</a>
+						</li>
+					</ul>
+				</nav>
+		</header>
+		
+			<div class ="contenedor">
+			<h1 class="titulo"> TECNOSTARS </h1><!-- titulo -->
+			<h3 class="title-a"> Tecnología al alcance de un clic </h3> <!-- resumen -->
+			<a class="button" href="#Celulares"> Conoce mas </a><!-- boton -->	
+		</div>
+		</section>
+		<section id="Tecnologías" class="Tecnologías contenedor "> <!-- tecnologías -->
+			<h2> Nuestras Tecnologías </h2> 
+			<article id="Computadores" class="tecno"> <!-- tecno1 -->
+				<img class= "compu" src="IMAGES/COMPU.PNG" width="200" height="200" alt="Computadores Tecnostars" >
+				<div class="contenedor-tecno-a">
+				<h3 class="title-b"> Computadores</h3>
+				<ol>
+					<li> Procesadores INTEL 9 con 8 nucleos </li>	
+					<li> TAMAÑO DE 14 PULGADAS </li>
+					<li> incluye Estuche para portatil </li>		
+				</ol>
+				</div>
+			</article>
+			<article id="Celulares" class="tecno"> <!-- tecno2 -->
+				<img class="celu" src="IMAGES/CELU.PNG" width="200" height="200" alt="Celulares Tecnostars">
+				
+				<div class="contenedor-tecno-b">
+				<h3 class="title-b"> Celulares</h3>
+				<ol>
+					<li> Procesadores Exynos con 8 nucleos </li>	
+					<li> Resistente al agua </li>
+					<li> incluye pencil y audifonos inalambricos</li>		
+				</ol>
+				</div>
+			</article>
+		</section>
+
+		<footer class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					
+					<img src = "IMAGES/LOGOBLANCO.PNG" width="300" height="50" alt="logotipo">
+					<a href="tel:+573024456"><strong> Telefono </strong><span>3024456</span> </a>
+					<a href="mailto:Contacto@tecnostarts.com"> <strong>E-mail</strong> <span>Contacto@tecnostarts.com</span></a>
+				</div>
+
+				<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre</label>
+					<input type="text" required id="nombre" name="nombre" />
+					<label for="email">E-mail</label>
+					<input type="E-mail" required id="email" name="email" />
+
+					<div class="sexo">
+					<label for="mujer">
+					<input type="radio" id="mujer" value="mujer" name="sexo"> mujer
+					</label>
+
+					<label for="hombre">
+					<input type="radio" id="hombre" value="hombre" name="sexo"> hombre
+					</label>
+				</div>
+
+				<div class="intereses">
+
+					<label for="cotizacion">
+					<input type="checkbox" id="cotizacion" value="cotizacion" name="intereses"> Cotización
+					</label>
+
+					<label for="reclamos">
+					<input type="checkbox" id="reclamos" value="reclamos" name="intereses"> Reclamos
+					</label>
+
+					<label for="comentarios">
+					<input type="checkbox" id="comentarios" value="comentarios" name="intereses"> Comentarios
+					</label>
+
+					<label for="otros">
+					<input type="checkbox" id="otros" value="otros" name="intereses"> Otros
+					</label>
+
+					</div>
+				</div>
+
+				<div class="col2">
+					<label for="comentarios"> Comentarios </label>
+
+					<textarea name="comentarios" id="cometarios" cols="30" rows="7"></textarea>
+					<input type="submit" value="Enviar" class="button" />
+
+				</div>
+
+				</form>
+			</div> 
+			
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,308 @@
+/**{
+
+	width: tamaño;
+	height: tamaño;
+ padding: 10px; 
+
+  padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 13px;
+   padding-bottom: 5px;
+
+padding: 10px 13px 5px 15px;    
+
+margin: 10px;
+   margin-top: 10px;
+   margin-left: 15px;
+   margin-right: 13px;
+   margin-bottom: 5px;
+
+margin: 10px 13px 5px 15px;    
+
+border: 2px solid red;
+
+}*/
+
+body {
+font-family: 'Life Savers', cursive;
+ margin: 0;
+ background: CadetBlue;
+}
+
+ table {
+
+ 	width:100%;
+ }
+
+ th{
+
+ 	background: #273b47;
+ 	color:white;
+ }
+
+th{
+	padding: 10px 20px;
+	text-align: left;
+}
+
+ td {
+
+ 	padding:20px;
+ }
+
+ table,td,th {
+
+ 	border: 1px solid #273b47; 
+ 	border-collapse: collapse;
+ }
+
+input, textarea{
+
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+
+	background: PowderBlue;
+}
+
+.contenedor {
+
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.background {
+	background-image: url('../IMAGES/FONDO2.PNG') ;  
+	background-size: cover;
+}
+
+.button {
+
+	border-radius: 12px;
+	border: none;
+	background: #00BFFF;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	background: linear-gradient(to left,#00BFFF,#1E90FF)
+}
+
+.titulo{
+	font-family: 'Monoton', cursive;
+	font-size: 70px ; 
+	margin-bottom: 0px; 
+	margin-top: 70px;
+	text-decoration: underline;
+}
+
+.title-a{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.Tecnologías {
+color: #008080;
+margin-bottom: 60px;/* espacio abajo de la pagina*/
+/*width: 800px;
+margin: auto;*/
+
+}
+
+.Tecnologías h2 { 
+font-family: 'Monoton', cursive;
+font-size: 35px;
+ }
+
+.title-b {
+
+	font-size: 50px;
+	margin-bottom: 20px;
+
+
+}
+
+.portada {
+
+	color: white ;
+	padding: 20px;
+	height: 500px;
+	/*width: 800px;
+	margin: auto;*/ /*se centra la imagen*/
+}
+
+.portada button {
+	margin-bottom: 70px;
+}
+
+.menú {
+
+	font-size: 24px;
+	display:inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menú li { 
+ display: inline-block;
+ margin-left: 30px;
+ }
+
+.menú li:before{
+	content: "⦿";
+  color: SkyBlue;
+  font-size: 30px;
+  line-height: 20px;
+	
+}
+
+.menú a {
+
+	color: LightSteelBlue;
+	text-decoration: none;
+}
+
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+
+/*.header {
+	width: 800px;
+	margin: auto;
+}*/
+
+.tecno {
+ margin: 10px 10px 40px 10px;
+ padding: 10px;
+ overflow: hidden;
+ border: 1px solid #1F313C;
+ border-radius: 20px 50px 10px 50px;
+ background: LightCyan;
+
+}
+/*.tecno ol{
+	 
+	 padding:0;
+	
+}*/
+
+.compu {
+
+	float: left;
+
+}
+
+.celu {
+
+	float: left;
+}
+
+.contenedor-tecno-a {
+
+ 	margin-left: 200px;
+ 	padding-left: 20px;
+}
+
+.contenedor-tecno-b {
+
+ 	margin-left: 200px;
+ 	padding-left: 20px;
+}
+
+.header{
+
+	position: relative;
+
+}
+
+.footer{
+
+	background: DarkSlateGray;
+	padding :50px 10px;
+}
+
+.contacto{
+
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contacto img {
+
+	display: block;
+}
+
+.contacto strong {
+
+	display: block;
+}
+
+
+.contacto a {
+
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor { 
+display: flex;
+justify-content: space-between;
+ }
+
+.formulario {
+	color: 	white;
+ 	display: flex;
+ 	width: 400px
+
+ }
+
+ .col1, .col2{
+
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .col1{
+
+ 	margin-right: 15px;
+ }
+
+ .col2{
+
+ 	align-items: flex-start;
+ }
+
+ .col2 .button {
+
+ 	margin-top: 15px;
+
+ }
+
+ .intereses label {
+
+ 	font-size: 12px;
+ 	margin-right: 3px;
+ 	
+ }
+
+ .formulario label, .sexo,.intereses {
+
+ 	margin-bottom: 10px;
+  
+ }
+
+ .sexo{
+
+ 	margin-top: 10px;
+ }
+
+.tabla{
+	margin:50fpx 0;
+}

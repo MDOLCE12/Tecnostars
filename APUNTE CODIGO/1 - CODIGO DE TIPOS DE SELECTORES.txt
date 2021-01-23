@@ -1,0 +1,67 @@
+/*tipo de selector {
+
+	Propiedad: valor;
+	Propiedad-2: valor;
+}
+*/
+
+Body {
+
+	background: LightSeaGreen;
+}
+
+
+/* 1 - selector universal */
+
+*{
+	border: 1px solid red;
+	margin: 10px;
+}
+
+
+/* 2 - selector de etiquetas
+*/
+header{
+
+	background: Aquamarine;
+}
+
+section {
+
+	background: Violet;
+}
+
+
+/* 3 - selector descendiente*/
+
+
+article h3 {
+	color: Teal;
+}
+
+
+/* 4 - selector de clase*/
+
+.title-a{
+	background: Yellow;
+}
+
+.title-b{
+	background: Salmon;
+}
+
+/*selector de id */
+
+#portada {
+	border: 3px solid orange;
+}
+
+#header {
+	border: 3px solid Black;
+}
+
+
+#Tecnología {
+
+	border: 3px solid Brown;
+}
